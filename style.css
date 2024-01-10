@@ -3,12 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header, .footer {
+    background-color: #1F2937;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 200px;
-    background-color: #1F2937;
 }
 
 h1 {
@@ -128,4 +131,13 @@ h5 {
     margin: 0;
     color: white;
     font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+
+.footer p {
+    margin: 0;
 }
